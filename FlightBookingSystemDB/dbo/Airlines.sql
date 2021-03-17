@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[Airlines]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [Name] NVARCHAR(30) NOT NULL
+)

@@ -56,5 +56,17 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="dbo" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\Passengers.sql" />
+    <Build Include="dbo\Tickets.sql" />
+    <Build Include="dbo\Flights.sql" />
+    <Build Include="dbo\Airlines.sql" />
+    <Build Include="dbo\Airports.sql" />
+    <Build Include="dbo\FlightClass.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="FlightBookingSystemDB.publish.xml" />
   </ItemGroup>
 </Project>

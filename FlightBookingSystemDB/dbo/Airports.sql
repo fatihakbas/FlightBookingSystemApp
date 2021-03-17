@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[Airports]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [IATACode] NVARCHAR(30) NOT NULL, 
+    [Name] NVARCHAR(30) NOT NULL, 
+    [City] NVARCHAR(30) NOT NULL, 
+    [State] NVARCHAR(50) NOT NULL
+)
