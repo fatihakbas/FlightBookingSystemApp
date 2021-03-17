@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightBookingSystemUI", "Fl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLibrary", "DataAccessLibrary\DataAccessLibrary.csproj", "{539F1E07-8BC4-4A4E-B078-4F5103CD91FF}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "FlightBookingSystemDB", "FlightBookingSystemDB\FlightBookingSystemDB.sqlproj", "{5A14C64C-61D0-4600-9A46-21EE057FDF66}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,12 @@ Global
 		{539F1E07-8BC4-4A4E-B078-4F5103CD91FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{539F1E07-8BC4-4A4E-B078-4F5103CD91FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{539F1E07-8BC4-4A4E-B078-4F5103CD91FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A14C64C-61D0-4600-9A46-21EE057FDF66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A14C64C-61D0-4600-9A46-21EE057FDF66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A14C64C-61D0-4600-9A46-21EE057FDF66}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5A14C64C-61D0-4600-9A46-21EE057FDF66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A14C64C-61D0-4600-9A46-21EE057FDF66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A14C64C-61D0-4600-9A46-21EE057FDF66}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
