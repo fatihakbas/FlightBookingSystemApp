@@ -6,6 +6,7 @@ namespace DataAccessLibrary.Models
 {
     public class AirlineModel
     {
+        public int Id { get; set; }
         public string Airline { get; set; }
     }
 }

@@ -6,6 +6,7 @@ namespace DataAccessLibrary.Models
 {
     public class FlightModel
     {
+        public int Id { get; set; }
         public string Number { get; set; }
         public DateTime DepartureDateTime { get; set; }
         public DateTime ArrivalDateTime { get; set; }
